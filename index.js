@@ -11,22 +11,52 @@ const data = [
     },
     {
         id: 2,
-        question: "Which of these fish is actually a cricketer?",
+        question: "Which of following is actually a cricketer?",
         options: [
-            { option: "sachin", isCorrect: true, },
-            { option: "ramesh", isCorrect: false, },
-            { option: "messi", isCorrect: false, },
-            { option: "akshay", isCorrect: false, },
+            { option: "Sachin Tendulkar", isCorrect: true, },
+            { option: "Robert Downey", isCorrect: false, },
+            { option: "Lionel Messi", isCorrect: false, },
+            { option: "Akshay Kumar", isCorrect: false, },
         ]
     },
     {
         id: 3,
-        question: "Which of these fish is actually a actor?",
+        question: "Which of is actually a actor?",
         options: [
-            { option: "rakesh", isCorrect: false, },
-            { option: "karan", isCorrect: false, },
-            { option: "hritik", isCorrect: true, },
-            { option: "rajamouli", isCorrect: false, },
+            { option: "Rakesh Mohan", isCorrect: false, },
+            { option: "Karan Johar", isCorrect: false, },
+            { option: "Hritik Roshan", isCorrect: true, },
+            { option: "SS Rajamouli", isCorrect: false, },
+        ]
+    },
+    {
+        id: 4,
+        question: "Which animal is known as 'Sheep of Desert' ?",
+        options: [
+            { option: "Horse", isCorrect: false, },
+            { option: "Camel", isCorrect: true, },
+            { option: "Fennec Fox", isCorrect: false, },
+            { option: "Meerkat", isCorrect: false, },
+        ]
+    },
+    {
+        id: 5,
+        question: "The Battle of Plassey was fought in ?",
+        options: [
+            { option: "1757", isCorrect: true, },
+            { option: "1782", isCorrect: false, },
+            { option: "1748", isCorrect: false, },
+            { option: "1764", isCorrect: false, },
+        ]
+    },
+    {
+        id: 6,
+        question: "Tripitakas are sacred books of ",
+        options: [
+            { option: "Buddhists", isCorrect: true, },
+            { option: "Hindus", isCorrect: false, },
+            { option: "Jains", isCorrect: false, },
+            { option: "None of the above", isCorrect: false, },
         ]
     },
 ]
